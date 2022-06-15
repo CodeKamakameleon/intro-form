@@ -149,6 +149,11 @@ body {
   color: red;
 }
 
+.form__error {
+  color: red;
+  font-size: small;
+}
+
 @media (max-width: 480px) {
   body {
     background-image: url(./images/bg-intro-mobile.png);
