@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" media="max-width:450px" href="style.css" />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style></style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="left">
+        <h1 class="left_h1">Learn to code by watching others</h1>
+        <p class="left_p">
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </section>
+      <section class="right">
+        <h2 class="right_heading">
+          <span class="span"> Try it free 7 days</span> then $20/mo. thereafter
+        </h2>
+        <div class="form-group">
+          <form id="form" novalidate>
+            <div>
+              <input
+                type="text"
+                class="form__input"
+                placeholder="First Name"
+                id="fname"
+                required
+              />
+              <span class="form__error"></span>
+            </div>
+
+            <div>
+              <input
+                type="text"
+                class="form__input"
+                placeholder="Last Name"
+                id="lname"
+                required
+              />
+              <span class="form__error"></span>
+            </div>
+
+            <div>
+              <input
+                type="email"
+                class="form__input"
+                placeholder="Email"
+                id="email"
+                required
+              />
+              <span class="form__error"></span>
+            </div>
+
+            <div>
+              <input
+                type="password"
+                class="form__input"
+                placeholder="Password"
+                id="Password"
+                required
+              />
+              <span class="form__error"></span>
+            </div>
+
+            <button class="btn btn-green" type="submit">
+              Claim your free trial
+            </button>
+            <p class="footer">
+              By clicking the button, you are agreeing to our
+              <span class="red"> Terms and Services</span>
+            </p>
+          </form>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
+<script src="./index.js"></script>
